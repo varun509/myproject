@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name=": SuccessfulLogin">
+    <classes>
+      <class name="germanyisCalling.Logintest">
+     <methods>
+					<include name="openLoginPage" />
+					<include name="validLoginPage" />
+				
+					<include name="close" />
+				</methods>
+      </class>
+    </classes>
+  </test> 
+  <test  name=": UnSuccessfulLogin">
+    <classes>
+      <class name="germanyisCalling.Logintest">
+     <methods>
+					<include name="openLoginPage" />
+					<include name="invalidLoginPage" />
+					<include name="close" />
+				</methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 
