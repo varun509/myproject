@@ -7,7 +7,6 @@ These are the following steps to set up and run the test scripts for this projec
 1. Prerequisites
    - Ensure you have all the necessary jarfiles  installed for selenium,testng:
     
-
 2.  Dependencies
     -Attach all the maven dependencies for testng.
 
@@ -22,7 +21,7 @@ These are the following steps to set up and run the test scripts for this projec
 7.Execute the test scripts and generate a emailable html report for the test case status.
 
 
-6. After tests complete, review the test results in the terminal output.
+8. After tests complete, review the test results in the terminal output.
 
 
 
