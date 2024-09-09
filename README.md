@@ -22,6 +22,7 @@ These are the following steps to set up and run the test scripts for this projec
 
 
 8. After tests complete, review the test results in the terminal output.
+9. github repo accesscode- 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(if required).
 
 
 
