@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[launch browser succes]]>
+    </line>
+    <line>
+      <![CDATA[maximizebrowser browser succes]]>
+    </line>
+    <line>
+      <![CDATA[launch browser succes]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-06T10:13:29 IST" name="functionlaSuite" finished-at="2024-11-06T10:13:32 IST" duration-ms="2208">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T10:13:29 IST" name="chromeTest" finished-at="2024-11-06T10:13:32 IST" duration-ms="2208">
+      <class name="com.epdom.welcometest.Verifywelcometest">
+        <test-method is-config="true" signature="suitsetup()[pri:0, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:29 IST" name="suitsetup" finished-at="2024-11-06T10:13:29 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitsetup -->
+        <test-method is-config="true" signature="openbrowser(java.lang.String,java.lang.String)[pri:0, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:29 IST" name="openbrowser" finished-at="2024-11-06T10:13:32 IST" duration-ms="2141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\varun\eclipse-workspace\com.epdom\src\main\resources\Softwares\webpage.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch browser succes]]>
+            </line>
+            <line>
+              <![CDATA[maximizebrowser browser succes]]>
+            </line>
+            <line>
+              <![CDATA[launch browser succes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="verifywelcomepagewithvalidinput()[pri:1, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:32 IST" name="verifywelcomepagewithvalidinput" finished-at="2024-11-06T10:13:32 IST" duration-ms="16" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at com.epdom.webdriver.library.Webdriverutil.waitimplicitly(Webdriverutil.java:23)
+at com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithvalidinput(Verifywelcometest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywelcomepagewithvalidinput -->
+        <test-method signature="verifywelcomepagewithinvalidinputs()[pri:2, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:32 IST" name="verifywelcomepagewithinvalidinputs" finished-at="2024-11-06T10:13:32 IST" depends-on-methods="com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithvalidinput" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithinvalidinputs() on instance com.epdom.welcometest.Verifywelcometest@313ac989 depends on not successfully finished methods 
+[com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithvalidinput() on instance com.epdom.welcometest.Verifywelcometest@313ac989]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithinvalidinputs() on instance com.epdom.welcometest.Verifywelcometest@313ac989 depends on not successfully finished methods 
+[com.epdom.welcometest.Verifywelcometest.verifywelcomepagewithvalidinput() on instance com.epdom.welcometest.Verifywelcometest@313ac989]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywelcomepagewithinvalidinputs -->
+        <test-method is-config="true" signature="terminatebrowser()[pri:0, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:32 IST" name="terminatebrowser" finished-at="2024-11-06T10:13:32 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at com.epdom.webdriver.library.Webdriverutil.terminateBrowser(Webdriverutil.java:71)
+at com.epdom.genericlibrary.BaseTest.terminatebrowser(BaseTest.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminatebrowser -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:com.epdom.welcometest.Verifywelcometest@313ac989]" started-at="2024-11-06T10:13:32 IST" name="suiteTerminateSetup" finished-at="2024-11-06T10:13:32 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- com.epdom.welcometest.Verifywelcometest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- functionlaSuite -->
+</testng-results>
